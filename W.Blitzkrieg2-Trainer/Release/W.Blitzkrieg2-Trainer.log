@@ -1,0 +1,44 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(232,19): error C2664: 'int _stricmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+      D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(232,30):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h(189,22):
+      see declaration of '_stricmp'
+      D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(232,19):
+      while trying to match the argument list '(WCHAR [260], const char *const )'
+  
+D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(242,19): error C2664: 'int _stricmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+      D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(242,30):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h(189,22):
+      see declaration of '_stricmp'
+      D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(242,19):
+      while trying to match the argument list '(WCHAR [256], const char *const )'
+  
+D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(274,17): error C2664: 'HRSRC FindResourceW(HMODULE,LPCWSTR,LPCWSTR)': cannot convert argument 3 from 'const char [4]' to 'LPCWSTR'
+      D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(274,65):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\libloaderapi.h(587,1):
+      see declaration of 'FindResourceW'
+      D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(274,17):
+      while trying to match the argument list '(int, LPWSTR, const char [4])'
+  
+D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(398,9): error C2440: 'initializing': cannot convert from 'const char *const ' to 'LPCWSTR'
+      D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(398,9):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(401,14): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 3 from 'const char *const ' to 'LPCWSTR'
+      D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(401,14):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winuser.h(4439,1):
+      see declaration of 'CreateWindowExW'
+      D:\!!CD\RE\W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer\main.cpp(401,14):
+      while trying to match the argument list '(long, LPCWSTR, const char *const , unsigned long, int, int, int, int, nullptr, nullptr, HINSTANCE, nullptr)'
+  

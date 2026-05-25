@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "W.Blitzkrieg2-Trainer", "W.Blitzkrieg2-Trainer\W.Blitzkrieg2-Trainer.vcxproj", "{112168AD-D5CB-4418-90C8-AB57B35B8FEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{112168AD-D5CB-4418-90C8-AB57B35B8FEC}.Debug|x64.ActiveCfg = Debug|x64
+		{112168AD-D5CB-4418-90C8-AB57B35B8FEC}.Debug|x64.Build.0 = Debug|x64
+		{112168AD-D5CB-4418-90C8-AB57B35B8FEC}.Debug|x86.ActiveCfg = Debug|Win32
+		{112168AD-D5CB-4418-90C8-AB57B35B8FEC}.Debug|x86.Build.0 = Debug|Win32
+		{112168AD-D5CB-4418-90C8-AB57B35B8FEC}.Release|x64.ActiveCfg = Release|x64
+		{112168AD-D5CB-4418-90C8-AB57B35B8FEC}.Release|x64.Build.0 = Release|x64
+		{112168AD-D5CB-4418-90C8-AB57B35B8FEC}.Release|x86.ActiveCfg = Release|Win32
+		{112168AD-D5CB-4418-90C8-AB57B35B8FEC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3B1A6EA-B5B3-4B0C-882D-EE6139A7B14E}
+	EndGlobalSection
+EndGlobal

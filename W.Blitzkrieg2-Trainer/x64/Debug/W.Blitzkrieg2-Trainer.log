@@ -1,0 +1,10 @@
+﻿  imgui_impl_win32.cpp
+  main.cpp
+  Generating Code...
+imgui_impl_dx9.obj : error LNK2019: unresolved external symbol "struct ImGuiPlatformIO & __cdecl ImGui::GetPlatformIO(void)" (?GetPlatformIO@ImGui@@YAAEAUImGuiPlatformIO@@XZ) referenced in function "void __cdecl ImGui_ImplDX9_CreateDeviceObjectsForPlatformWindows(void)" (?ImGui_ImplDX9_CreateDeviceObjectsForPlatformWindows@@YAXXZ)
+imgui_impl_win32.obj : error LNK2001: unresolved external symbol "struct ImGuiPlatformIO & __cdecl ImGui::GetPlatformIO(void)" (?GetPlatformIO@ImGui@@YAAEAUImGuiPlatformIO@@XZ)
+imgui_impl_dx9.obj : error LNK2019: unresolved external symbol "void __cdecl ImGui::DestroyPlatformWindows(void)" (?DestroyPlatformWindows@ImGui@@YAXXZ) referenced in function "void __cdecl ImGui_ImplDX9_ShutdownPlatformInterface(void)" (?ImGui_ImplDX9_ShutdownPlatformInterface@@YAXXZ)
+imgui_impl_win32.obj : error LNK2019: unresolved external symbol "struct ImGuiViewport * __cdecl ImGui::FindViewportByID(unsigned int)" (?FindViewportByID@ImGui@@YAPEAUImGuiViewport@@I@Z) referenced in function "void __cdecl ImGui_ImplWin32_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplWin32_CreateWindow@@YAXPEAUImGuiViewport@@@Z)
+imgui_impl_win32.obj : error LNK2019: unresolved external symbol "struct ImGuiViewport * __cdecl ImGui::FindViewportByPlatformHandle(void *)" (?FindViewportByPlatformHandle@ImGui@@YAPEAUImGuiViewport@@PEAX@Z) referenced in function "void __cdecl ImGui_ImplWin32_UpdateMousePos(void)" (?ImGui_ImplWin32_UpdateMousePos@@YAXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\!!CD\RE\W.Blitzkrieg2-Trainer\x64\Debug\W.Blitzkrieg2-Trainer.exe : fatal error LNK1120: 5 unresolved externals
