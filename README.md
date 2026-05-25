@@ -8,10 +8,14 @@ A lightweight, single-executable external game trainer for **Blitzkrieg 2** writ
 
 ---
 
-## 📊 DLC & Campaign Support Status
+## Support Status
 
 | Game / Expansion Pack | Feature Support Status |
 | :--- | :--- |
 | **Blitzkrieg 2 (Main Game)** | 🟢 **Fully Supported** |
-| **Fall of the Reich (DLC)** | 🟡 **Implementing** |
+| **Fall of the Reich (DLC)** | 🟡 **Working on it** |
 | **Liberation (DLC)** | 🔴 **Not Implemented** |
+
+---
+<img width="520" height="360" alt="image" src="https://github.com/user-attachments/assets/6e156637-66f8-45db-b35c-4076fbbd4c19" />
+
